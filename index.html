@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Игра по угадыванию чисел</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Игра по угадыванию чисел</h1>
+        <p>
+            Число компьютера:
+            <span id="userNumber"></span>
+        </p>
+        <p>
+            Рандомное Число:
+            <span id="computerNumber"></span>
+        </p>
+        <p>
+            Ваше Число:
+            <input type="number" id="competitorNumber" min="0" max="10">
+            <button onclick="guessNumber()">Ввести</button>
+        </p>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
